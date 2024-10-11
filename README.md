@@ -11,11 +11,11 @@ DataFrame: A two-dimensional table with labeled axes (rows and columns), akin to
 Data Loading:
 
 **Pandas can load data from various formats, including:**
-
+```python
 CSV (pd.read_csv())
 Excel (pd.read_excel())
 SQL Databases (pd.read_sql())
-
+```
 
 **1 :- Data Manipulation:**
 Filtering and Selecting Data: Select specific rows or columns using labels or conditions.
@@ -27,33 +27,35 @@ df[df['column'] > value]  # Select rows based on a condition
 **2:- Handling Missing Data:**
 Identify and handle missing or null values.
 
-touch script.py
+```python
 df.fillna(value)  # Replace NaN with a value
 df.dropna()  # Drop rows with NaN values
+```
 
 **3:- Aggregation:**
 Perform group-by operations to aggregate data based on categories.
 
-Copy code
+```python
 df.groupby('category').sum()
-Data Cleaning:
+```
 
-4:- Removing duplicates, handling missing values, and transforming data types are easy with Pandas:
+**4 :-Data Cleaning::**- Removing duplicates, handling missing values, and transforming data types are easy with Pandas:
 
-Copy code
+```python
 df.drop_duplicates()  # Remove duplicate rows
 df.fillna(method='ffill')  # Fill missing values
+```
 
 **5:- Data Transformation:**
 Pandas supports operations like sorting, renaming columns, merging DataFrames, and pivoting tables.
 
-Copy code
+```python
 df.sort_values(by='column')
 df.rename(columns={'old_name': 'new_name'})
 df.merge(another_df, on='key')
-Data Analysis:
+```
 
-**6:- Pandas provides several statistical functions to analyze data:**
+**6:- Data Analysis:-** Pandas provides several statistical functions to analyze data:**
 
 Copy code
 df.describe()  # Summary statistics
