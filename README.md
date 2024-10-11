@@ -11,6 +11,7 @@ DataFrame: A two-dimensional table with labeled axes (rows and columns), akin to
 Data Loading:
 
 **Pandas can load data from various formats, including:**
+
 CSV (pd.read_csv())
 Excel (pd.read_excel())
 SQL Databases (pd.read_sql())
@@ -19,9 +20,9 @@ SQL Databases (pd.read_sql())
 **1 :- Data Manipulation:**
 Filtering and Selecting Data: Select specific rows or columns using labels or conditions.
 
-Copy code
+```python
 df[df['column'] > value]  # Select rows based on a condition
-
+```
 
 **2:- Handling Missing Data:**
 Identify and handle missing or null values.
