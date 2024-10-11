@@ -14,7 +14,7 @@ Data Loading:
 CSV (pd.read_csv())
 Excel (pd.read_excel())
 SQL Databases (pd.read_sql())
-JSON, HTML, and more.
+
 
 **1 :- Data Manipulation:**
 Filtering and Selecting Data: Select specific rows or columns using labels or conditions.
@@ -26,7 +26,7 @@ df[df['column'] > value]  # Select rows based on a condition
 **2:- Handling Missing Data:**
 Identify and handle missing or null values.
 
-Copy code
+touch script.py
 df.fillna(value)  # Replace NaN with a value
 df.dropna()  # Drop rows with NaN values
 
