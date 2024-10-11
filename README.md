@@ -57,9 +57,10 @@ df.merge(another_df, on='key')
 
 **6:- Data Analysis:-** Pandas provides several statistical functions to analyze data:**
 
-Copy code
+```python
 df.describe()  # Summary statistics
 df['column'].mean()  # Compute the mean of a column
+```
 
 **7:- Integration with Other Libraries:**
 
